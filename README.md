@@ -1,5 +1,5 @@
 # SWP391-G3shop-Project
-# Đây là project của nhóm mình đã báo cáo rồi vui lòng tham khảo không copy lại
+# G3shop là trang web bán các thiết bị điện tử và quản lí sản phẩm
 
 # Group 3: 
   - Leader: Võ Duy Thanh

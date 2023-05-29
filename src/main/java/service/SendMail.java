@@ -9,8 +9,8 @@ public class SendMail {
 
     public static void send(String to, String sub,
             String msg) {
-        final String user = "quocnace160595@fpt.edu.vn";
-        final String pass = "0982803536qt";
+        final String user = "tai khaon email";
+        final String pass = "mat khau email";
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.gmail.com");
         props.put("mail.smtp.port", "587");

@@ -19,7 +19,7 @@ import model.User;
 public class ProductDAO extends DBContext {
 
     //when get product always get with condition and then if have sort we will sort with a method 
-    public ArrayList<Product> getAllProductByCondition(String brand, String category, String orderBy, String search, int index) {
+    /*public ArrayList<Product> getAllProductByCondition(String brand, String category, String orderBy, String search, int index) {
         ArrayList<Product> proList = new ArrayList<>();
         String sort = "";
         switch (orderBy) {
@@ -116,7 +116,7 @@ public class ProductDAO extends DBContext {
         }
         return 0;
     }
-
+    */
     public ArrayList<Product> getRecommendPro(String category, int index) {
         ArrayList<Product> proList = new ArrayList<>();
         try {
@@ -161,7 +161,7 @@ public class ProductDAO extends DBContext {
         }
         return 0;
     }
-
+    /*
     public ArrayList<Product> getAllProductForMarketing(String brand, String category, String status, String title, String brief, int index) {
         ArrayList<Product> proList = new ArrayList<>();
         try {
@@ -252,7 +252,7 @@ public class ProductDAO extends DBContext {
         } catch (Exception e) {
         }
     }
-
+    */
     public void switchProduct(int pid, int sstatus) {
         try {
             String sql = " UPDATE product set [active] = ? where product_id = ?";

@@ -11,6 +11,7 @@
 
 ## Yêu cầu Neatbean 13 Tomcat 9 và SQL 2019
 - JSP/Maven project
+- JDK 1.8 to 11
 
 ## HDSD và tài liệu
 - File HDSD trong tệp document từ a-z
